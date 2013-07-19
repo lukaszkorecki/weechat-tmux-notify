@@ -1,13 +1,11 @@
 # encoding: utf-8
-# Author: Lukasz Korecki <lukasz at coffeesounds dot com
-# Homepage: https://github.com/lukaszkorecki/DotFiles/blob/master/weechat/python/tmuxnotify.py
+# Author: Lukasz Korecki <lukasz at coffeesounds dot com>
+# Homepage: https://github.com/lukaszkorecki/weechat-tmux-notify
 
 # Version: 0.1
 #
 # Requires Weechat 0.3
 # Released under GNU GPL v2
-#
-# Copy weechaticn.png to /usr/local/share/pixmaps/ or change the path below
 #
 # Based (roughly) on http://github.com/tobypadilla/gnotify
 # gnotify is derived from notify http://www.weechat.org/files/scripts/notify.py
@@ -15,7 +13,7 @@
 
 import weechat,  string, os
 
-weechat.register("tmuxnotify", "lukaszkorecki", "0.1", "GPL", "tmux-notify: weechat notifications in tmux", "", "")
+weechat.register("tmuxnotify", "lukaszkorecki", "0.1", "GPL", "tmuxnotify: weechat notifications in tmux", "", "")
 
 # script options
 settings = {
