@@ -1,10 +1,10 @@
-#  Simpla (and flawed) tmux notifier for weechat
+#  Simple (and flawed) tmux notifier for weechat
 
-## Instalation
+## Installation
 
   Copy to `~/.weechat/python/` and symlink to `~/.weechat/python/authoload/`
 
-and restart/reload weechat.
+...and restart/reload weechat.
 
 
 ## TODO add more details
